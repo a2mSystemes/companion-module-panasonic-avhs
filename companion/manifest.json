@@ -1,0 +1,26 @@
+{
+	"id": "panasonic-avhs",
+	"name": "AV-HS50 / AV-HS410 / AV-UHS500",
+	"shortname": "avhs",
+	"description": "Companion module Panasonic AV-HS50, AV-HS410 and AV-UHS500",
+	"manufacturer": "Panasonic",
+	"products": ["AVHS410"],
+	"keywords": ["Video mixer", "410", "control", "avhs", "avuhs", "av-hs410", "av-hs50", "av-uhs550","avhs410", "avhs50", "avuhs550", "video"],
+	"version": "1.0.1",
+	"license": "AGPL-3.0",
+	"repository": "git+https://github.com/a2mSystemes/companion-module.avhs.git",
+	"bugs": "https://github.com/a2mSystemes/companion-module.avhs/issues",
+	"maintainers": [
+		{
+			"name": "Ange-Marie MAURIN",
+			"email": "a-m.maurin@a2msystemes.fr"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	}
+}

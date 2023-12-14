@@ -1,23 +1,17 @@
 # companion-module-panasonic-avhs
 
-See HELP.md and LICENSE
+## License
 
-**V1.0.2**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-- Bug-Fix for connection dropputs with AV-HS410
-- Fixed actions default not showing correctly
-- Added variables for AV-HS410 tally outputs and bus selections (only on AV-HS410)
-- Added Support for AV-UHS500
-- Yarn formated
+## Authors
 
-**V1.0.3**
+this module is a rewrite of the initial module made by Håkon Nessjøen [haakon@bitfocus.io]() and its the contributor ndreas H. Thomsen [mc-hauge@hotmail.com]()
 
-- Bug-Fix: Fixed variables not loading with the AV-HS410, when you had more than one network interface enabled
-- Some Error handling and stopped companion from crashing when updating the instance settings
-- Bug-Fix: Prevent companion from crashing when using more than one AV-HS410 video mixer
+As the module doesn't work in the latest versions of [Companion](https://bitfocus.io), I have decided to port it for [Companion](https://bitfocus.io) vesrion 3 and higher.
 
-**V1.0.4**
+## Warnings
 
-- Added Tally feedback for AV-HS410
-- Changed error handling on Multicast
-- Added the option to disble Tally/Multicast on AV-HS410, if dissabled it will default to port 60040 (only needs one plugin then)
+This module has been tested only on an AV-HS410 with AUX_IP plugin v 2.02,  and HS410_IF v2.02 enabled.
+
+

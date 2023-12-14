@@ -9,7 +9,7 @@
 	"product": "AV-HS50 / AV-HS410 / AV-UHS500",
 	"shortname": "av-hs",
 	"description": "Companion module for Panasonic AV-HS50, AV-HS410 and AV-UHS500",
-	"main": "index.js",
+	"main": "main.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -25,5 +25,12 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/bitfocus/companion-module-panasonic-avhs.git"
-	}
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.5.1"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.4.1"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json" 
 }
